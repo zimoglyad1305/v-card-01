@@ -1,32 +1,71 @@
-body{
-    font-family: Arial, sans-serif;
+:root{
+    --color-secon: rgb(204, 197, 188);
+    --color-prime: #926239;
 }
-.v-card{
-    width: 800px;
-    height: 400px;
-    border: 14px solid aquamarine;
-    margin: 40px 50px;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-prime);
+    font-size: 17px;
+    line-height: 1.6;
 }
-.my-photo{
-    width: 200px;
-    height: 100px;
-    margin: 40px 50px;
-    border: 2px solid red;
-    background-color: black;
+p{
+    padding: 20px;
 }
-.name{
-    font-size: 42px;
+.hero {
+    background-image: url(./beachshowcase.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-title{
+    display: block;
+    font-size: 50px;
     font-weight: 700;
-    margin-top: 50px;
+    line-height: 1.2;
+}
+.main-text{
+    display: block;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color-prime);
+    border: var(--color-prime) 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+.btn:hover,
+.btn:focus{
+    color: var(--color-secon);
+    background-color: var(--color-prime);
+}
+.text-item{
+    list-style-type: none;
+}
+.text-lorem-long{
+    font-size: 17px;
+    line-height: 1.6;
     text-align: center;
 }
-.text{
-    display: inline-flex;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 400;
-    width: 350px;
-    border: 3px solid blueviolet;
-    margin-left: 20px;
-    margin-top: 30px;
+.white{
+    color: var(--color-secon);
+    background-color: var(--color-prime);
+}
+.long{
+    align-items: center;
+}
+.row{
+    display: flex;
 }
