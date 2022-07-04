@@ -1,71 +1,70 @@
-:root{
-    --color-secon: rgb(204, 197, 188);
-    --color-prime: #926239;
+:root {
+  --color-secon: rgb(204, 197, 188);
+  --color-prime: #926239;
 }
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--color-prime);
-    font-size: 17px;
-    line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-prime);
+  font-size: 17px;
+  line-height: 1.6;
 }
-p{
-    padding: 20px;
+p {
+  padding: 20px;
 }
 .hero {
-    background-image: url(./beachshowcase.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-image: url(./beachshowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.hero-title{
-    display: block;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1.2;
+.hero-title {
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
 }
-.main-text{
-    display: block;
-    font-size: 20px;
-    line-height: 1.6;
+.main-text {
+  display: block;
+  font-size: 20px;
+  line-height: 1.6;
 }
-.btn{
-    font-size: 18px;
-    text-decoration: none;
-    color: var(--color-prime);
-    border: var(--color-prime) 1px solid;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-    cursor: pointer;
-    background: transparent;
+.btn {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--color-prime);
+  border: var(--color-prime) 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: transparent;
 }
 .btn:hover,
-.btn:focus{
-    color: var(--color-secon);
-    background-color: var(--color-prime);
+.btn:focus {
+  color: var(--color-secon);
+  background-color: var(--color-prime);
 }
-.text-item{
-    list-style-type: none;
+.shot {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
 }
-.text-lorem-long{
-    font-size: 17px;
-    line-height: 1.6;
-    text-align: center;
+.text-lorem-long {
+  font-size: 17px;
+  line-height: 1.6;
+  text-align: center;
 }
-.white{
-    color: var(--color-secon);
-    background-color: var(--color-prime);
+.white {
+  color: var(--color-secon);
+  background-color: var(--color-prime);
 }
-.long{
-    align-items: center;
-}
-.row{
-    display: flex;
+.long {
+  align-items: center;
 }
